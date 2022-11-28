@@ -1,0 +1,97 @@
+/* LostTodo */
+.ListTodo_button_block {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ListTodo_button_input {
+    margin-left: 20px;
+    width: 306px;
+    margin-top: 20px;
+}
+
+.Todo_button_text {
+    margin-left: 20px;
+}
+
+.ListTodo_button_block {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ListTodo_button {
+    margin-right: 10px;
+}
+
+.ListTodo_text {
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 140px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.ListTodo_text_title {
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.close {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.ListTodo_input {
+    margin-left: 40px;
+}
+
+.Dater_css {
+    float: right;
+    margin-right: 10px;
+}
+
+.ListTodo_button_good {
+    padding: 0;
+}
+
+.ListTodo_button_goodbed {
+    background-color: rgb(232, 17, 121);
+}
+
+.ListTodo_button_goodgood {
+    background-color: rgb(46, 177, 92);
+}
+
+
+
+/* AddTodo */
+.AddtodoSave {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.Todo_block {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+
+.Todo_button_input {
+    width: 300px;
+}
+
+/* Header */
+
+.Header {
+    margin-left: 20px;
+    font-size: 40px;
+}

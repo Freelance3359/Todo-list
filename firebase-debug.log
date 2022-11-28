@@ -1,0 +1,33 @@
+[debug] [2022-11-28T16:07:24.221Z] ----------------------------------------------------------------------
+[debug] [2022-11-28T16:07:24.223Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Алексей\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-11-28T16:07:24.224Z] CLI Version:   11.16.1
+[debug] [2022-11-28T16:07:24.224Z] Platform:      win32
+[debug] [2022-11-28T16:07:24.224Z] Node Version:  v16.18.0
+[debug] [2022-11-28T16:07:24.225Z] Time:          Mon Nov 28 2022 19:07:24 GMT+0300 (Москва, стандартное время)
+[debug] [2022-11-28T16:07:24.225Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-28T16:07:24.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-28T16:07:24.291Z] > authorizing via signed-in user (alex.skritniy@gmail.com)
+[debug] [2022-11-28T16:07:24.291Z] [iam] checking project create-tododo-todoshka for permissions ["firebase.projects.get"]
+[debug] [2022-11-28T16:07:24.294Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/create-tododo-todoshka:testIamPermissions [none]
+[debug] [2022-11-28T16:07:24.294Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/create-tododo-todoshka:testIamPermissions x-goog-quota-user=projects/create-tododo-todoshka
+[debug] [2022-11-28T16:07:24.294Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/create-tododo-todoshka:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-11-28T16:07:25.098Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/create-tododo-todoshka:testIamPermissions 200
+[debug] [2022-11-28T16:07:25.098Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/create-tododo-todoshka:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-11-28T16:07:25.099Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka [none]
+[debug] [2022-11-28T16:07:25.486Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka 200
+[debug] [2022-11-28T16:07:25.486Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka {"projectId":"create-tododo-todoshka","projectNumber":"110227038905","displayName":"todolist-freelance3359","name":"projects/create-tododo-todoshka","resources":{"hostingSite":"create-tododo-todoshka"},"state":"ACTIVE","etag":"1_a9e59250-c7e3-4be9-a66d-61872e2de87f"}
+[info] 
+[info] === Serving from 'C:\Users\Алексей\Desktop\react\lll'...
+[info] 
+[debug] [2022-11-28T16:07:25.494Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/create-tododo-todoshka/sites 
+[debug] [2022-11-28T16:07:26.532Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/create-tododo-todoshka/sites 200
+[debug] [2022-11-28T16:07:26.532Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/create-tododo-todoshka/sites {"sites":[{"name":"projects/create-tododo-todoshka/sites/create-tododo-todoshka","defaultUrl":"https://create-tododo-todoshka.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-11-28T16:07:26.533Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka/webApps/-/config [none]
+[debug] [2022-11-28T16:07:27.176Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka/webApps/-/config 200
+[debug] [2022-11-28T16:07:27.177Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka/webApps/-/config {"projectId":"create-tododo-todoshka","storageBucket":"create-tododo-todoshka.appspot.com","apiKey":"AIzaSyBgNMlSM7c45KD6tJq1ne9PuVwYcBTju7c","authDomain":"create-tododo-todoshka.firebaseapp.com","messagingSenderId":"110227038905"}
+[debug] [2022-11-28T16:07:27.203Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka [none]
+[debug] [2022-11-28T16:07:27.494Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka 200
+[debug] [2022-11-28T16:07:27.494Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/create-tododo-todoshka {"projectId":"create-tododo-todoshka","projectNumber":"110227038905","displayName":"todolist-freelance3359","name":"projects/create-tododo-todoshka","resources":{"hostingSite":"create-tododo-todoshka"},"state":"ACTIVE","etag":"1_a9e59250-c7e3-4be9-a66d-61872e2de87f"}
+[info] i  hosting[create-tododo-todoshka]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[create-tododo-todoshka]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
